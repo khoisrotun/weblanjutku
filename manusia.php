@@ -1,17 +1,17 @@
 <?php
 class Manusia
 {
-	var $nama;
-	var $warna;
-	function tampilkan_nama(){
-	  return "Nama saya... <br/>";
-	}
-	function warna_kulit(){
-	  return "Warna kulit saya hitam <br/>";
-	}
+    var $nama;
+    var $warna;
+    
+    function tampilkan_nama(){
+        return "Nama saya .... <br/>";
+    }
+    function warna_kulit(){
+        return "Warna kulit saya hitam <br/>";
+    }    
 }
 //instansiasi class manusia
-$rifqi = new Manusia();
-echo $nyun->tampilkan_nama();
-echo $nyun->warna_kulit();
-?>	  
+$manusia = new Manusia();
+echo $manusia->tampilkan_nama();
+echo $manusia->warna_kulit();
